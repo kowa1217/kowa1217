@@ -1,3 +1,24 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+
+
+
+
+	
+  margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: bottom;
+  
+  
+  
+  }
+
+
+
+
+
 body{
   color: #082B48;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -92,4 +113,62 @@ padding: 0 10px;
   background-color: rgb(15, 243, 213);
   text-align: center;
   padding: 5% 0;
+}
+
+
+/*===================================
+スマホ表示
+=================================*/
+
+@media only screen and (max-width: 767px){
+
+ /*===================================
+header
+=================================*/ 
+
+
+.maintitle{
+  font-size: 15px;
+}
+.subtitle{
+  font-size: 6px;
+  width: 70%;
+  text-align: center;
+}
+
+/*===================================
+main
+=================================*/ 
+
+.container-main{
+  display: block;
+  width: 100%;
+}
+.main{
+  margin: 0 auto;
+  width: 90%;
+}
+
+.main-menu{
+  display: block;
+}
+
+.title h2{
+  text-align: center;
+  width: 100%;
+  font-size: 15px;
+}
+
+/*===================================
+side
+=================================*/ 
+
+.side{
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.side
+
 }
