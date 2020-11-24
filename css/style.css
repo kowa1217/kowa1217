@@ -150,11 +150,13 @@ header
 
 
 .maintitle{
-  font-size: 15px;
+  font-size: 23px;
+  width: 350px;
+  text-align: center;
 }
 .subtitle{
-  font-size: 6px;
-  width: 70%;
+  font-size: 15px;
+  width: 100%;
   text-align: center;
 }
 
