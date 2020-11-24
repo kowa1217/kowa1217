@@ -210,4 +210,8 @@ side
   padding:10px 0;
 }
 
+.side ul li{
+  display: block;
+}
+
 }
