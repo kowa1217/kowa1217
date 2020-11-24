@@ -10,9 +10,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     font-size: 100%;
     font: inherit;
     vertical-align: bottom;
-  
-  
-  
   }
 
 
@@ -67,6 +64,7 @@ a:hover{
   transform: translate(-50%,-50%);
   font-size: 50px;
   font-weight: bold;
+  color: rgb(255, 255, 255);
 }
 
 .subtitle{
@@ -77,6 +75,8 @@ a:hover{
   -webkit-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
   font-size: 25px;
+  font-weight: 600;
+  color: white;
 }
 
 .container-main{
@@ -86,34 +86,56 @@ a:hover{
 
 .main-menu{
   display: flex;
+  margin-top: 20px;
 }
 
 .main{
   width: 70%;
-padding: 0 10px;  
+padding: 0 10px;
+margin-bottom: 30px;
+
+}
+
+.pic{
+  width: 550px;
+  margin-left: 20px;
 }
 
 .title{
-  border-bottom: 3px solid #333999;
+  border-bottom: 3px solid #D7DD86;
   margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.menu li{
+margin-left: 30px;
+}
+
+.title h2{
+  font-size: 25px;
+  margin: 20px 0;
 }
 
 .side{
   width: 30%;
+  margin-left: 30px;
 }
 .side h2{
   font-size: 30px;
   background-color: coral;
-}
-.side ul li a{
-  display: block;
+  display: inline-block;
+  padding-right: 60px;
 }
 
+
 .container p{
-  background-color: rgb(15, 243, 213);
+  background: linear-gradient( #94B985 10%, #639C95 0%);
+  position: relative;
   text-align: center;
   padding: 5% 0;
 }
+
+
 
 
 /*===================================
@@ -153,10 +175,16 @@ main
   display: block;
 }
 
+
 .title h2{
   text-align: center;
   width: 100%;
-  font-size: 15px;
+  font-size: 13px;
+  padding-top: 20px;
+}
+
+.pic{
+  width: auto;
 }
 
 /*===================================
@@ -168,7 +196,16 @@ side
   width: 100%;
   margin: 0 auto;
 }
+.side h2{
+  display: block;
+  text-align: center;
+  padding-right: 0;
+}
 
-.side
+
+.side ul li{
+  border: 1px solid black;
+  padding:10px 0;
+}
 
 }
